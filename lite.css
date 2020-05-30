@@ -1,0 +1,91 @@
+#cal_body{
+	background-color: #f2f2f2;
+	/*#262626*/
+	color: black;
+	width : 360px;
+	height: 540px;
+	margin: 40px auto;
+	border-radius: 15px;
+	border: 0.01px solid white; 
+	/*box-shadow: 10px 5px black;*/
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 40), 0 6px 20px 0 rgba(0, 0, 0, 40);
+
+}
+body{
+	background-color:grey;
+	background-image: url(wall1.jpg);
+}
+#cal_screen1{
+	width : 360px;
+	height: 160px;
+	margin: 0px;
+	margin-top: -10px;
+	padding: 0px;
+	background-color: #f2f2f2;
+}
+
+#cal_screen2{
+	width : ;
+	height: 84px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: -14px;
+	background-color: #f2f2f2 ;
+}
+#num1{
+	font-size: 25px;
+	text-align: right;
+}
+#num2{
+	font-size: 25px;
+	text-align: right;
+}
+#op1{
+	font-size: 25px;
+	text-align: right;
+}
+#result{
+	font-size: 30px;
+	text-align: right;
+}
+#line{
+	background-color: grey;
+	height: 1.6px;
+}
+.hori{
+	width : 360px;
+	height: 50px;
+	margin: ;
+	padding: ;
+	background-color: ;
+	
+}
+button{
+	color:black;
+	background-color: #f2f2f2;
+	width: 87px;
+	height: 87px;
+	border: 0;
+	font-size: 16px;
+}
+
+#refresh{
+	font-size: 20px;
+	background-color: #f2f2f2;
+	margin-left: 37%;
+}
+
+
+#theme{
+	margin-left: 1200px;
+	text-decoration: none;
+	color: grey;
+	font-size: 18px;
+}
+
+
+#theme:hover{
+	font-size: px;
+	background-color: ;
+	color: black;
+}

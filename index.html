@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+      <title>
+      practice
+      </title>
+      <link rel="stylesheet" type="text/css" href="practice.css">
+    </head>
+    <body >
+      <a href="lite.html" id="theme">Change Theme</a>
+
+      <div id="cal_body">
+        <div id="cal_screen1">
+          <p id="num2"></p>
+          <p id="op1"></p>
+          <p id="num1"></p>
+        </div>
+
+        <div id="cal_screen2">
+          <div id="line"></div>
+          <p id="result"></p>
+        </div>
+        <div id="line"></div>
+        <div class="hori">
+          <button id="seven" onclick="seven()">7</button>
+          <button id="eight" onclick="eight()">8</button>
+          <button id="nine" onclick="nine()">9</button>
+          <button id="div" class="op" onclick="div()">/</button>
+        </div>
+
+        <div class="hori">
+          <button id="four" onclick="four()">4</button>
+          <button id="five" onclick="five()">5</button>
+          <button id="six" onclick="six()">6</button>
+          <button id="mul" class="op" onclick="mul()">*</button>
+        </div>
+        <div class="hori">
+        <button id="one" onclick="one()">1</button>
+        <button id="two" onclick="two()">2</button>
+        <button id="three" onclick="three()">3</button>
+        <button id="sub" class="op" onclick="sub()">-</button>
+       </div>
+       <!--          -->
+       
+        
+       <div class="hori">
+          <button id="zero" onclick="zero()">0</button>
+          <button id="cancel" onclick="cancel()">Cancel</button>
+          <button id="answer" onclick="operate()">=</button>
+           <button id="add" class="op" onclick="add()">+</button>
+        </div>
+        <button id="refresh" onclick="refresh()">REFRESH</button>
+      </div>
+        
+      <script  src="practice.js"></script>
+    </body>
+</html>
