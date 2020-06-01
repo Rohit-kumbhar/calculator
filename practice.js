@@ -27,6 +27,12 @@ function operate()
         {
             mul1();
         }
+        else
+        {
+            alert('insuficient data');
+            bul = 0;
+            can = 0;
+        }
     }
     else
     {
