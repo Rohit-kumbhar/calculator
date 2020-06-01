@@ -32,6 +32,7 @@ function operate()
     {
         alert('insuficient data');
         bul = 0;
+        can = 0;
     }
 }
 function add(){
